@@ -123,6 +123,18 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &6087160 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -3288213965911973131, guid: 237618dd109cf9f40a1212c9a8b7442b,
+    type: 3}
+  m_PrefabInstance: {fileID: 290222711}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77b398bc9e7b28a4b8eed01c80bd62b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &290222711
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1035,10 +1047,20 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -3288213965911973131, guid: 237618dd109cf9f40a1212c9a8b7442b,
         type: 3}
+      propertyPath: testing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -3288213965911973131, guid: 237618dd109cf9f40a1212c9a8b7442b,
+        type: 3}
       propertyPath: tomatoPrefab
       value: 
       objectReference: {fileID: 7372214592022718333, guid: 943060d932a81c44ca7f63ac6627aeff,
         type: 3}
+    - target: {fileID: -3288213965911973131, guid: 237618dd109cf9f40a1212c9a8b7442b,
+        type: 3}
+      propertyPath: secondClearCounter
+      value: 
+      objectReference: {fileID: 6087160}
     - target: {fileID: 2264087349661415307, guid: 237618dd109cf9f40a1212c9a8b7442b,
         type: 3}
       propertyPath: m_Name
