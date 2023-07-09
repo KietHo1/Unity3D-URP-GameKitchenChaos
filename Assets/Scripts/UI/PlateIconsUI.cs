@@ -27,12 +27,13 @@ public class PlateIconsUI : MonoBehaviour
     {
         foreach (Transform child in transform)
         {
+            if (child == iconTemplate) continue;
             Destroy(child.gameObject);
         }
         foreach (KitchenObjectSO kitchenObjectSO in plateKitchenObject.GetKitchenObjectSOList())
         {
-            iconTemplate.gameObject.SetActive(true);
             Transform iconTransform = Instantiate(iconTemplate, transform);
+            iconTransform.gameObject.SetActive(true);
             iconTransform.GetComponent<PlateIconsSingleUI>().SetKitchenObjectSO(kitchenObjectSO);
         }
     }
