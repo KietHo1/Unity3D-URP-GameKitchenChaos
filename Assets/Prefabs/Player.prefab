@@ -80,7 +80,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GlobalObjectIdHash: 951099334
-  AlwaysReplicateAsRoot: 0
+  AlwaysReplicateAsRoot: 1
   DontDestroyWithOwner: 0
   AutoObjectParentSync: 1
 --- !u!114 &8477137053614670884
@@ -312,8 +312,7 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayerVisual
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 6024899996280613204, guid: 1c5dda3c7cd3cf742afcade5419faeab, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c5dda3c7cd3cf742afcade5419faeab, type: 3}
 --- !u!4 &7789250038277946208 stripped
 Transform:
